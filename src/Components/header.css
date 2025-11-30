@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .header-section{
+    background-color: black;
+    color:red;
+    display:flex;
+    
+}
+.header-section ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.header-section ul li{
+    padding: 4px 29vb;
+    color:red;
+    font-size: 12px;
+}
+.logo-section{
+    background-color: white;;
+}
+.logo-section ul{
+    background: white;
+    margin: 0px;
+    top: 0px;
+}
+.logo-section ul li{
+    display: inline-block;
+    padding: 20px 33vb;
+} */
+
+/* ========== GLOBAL RESET ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-wrapper {
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* ========== TOP SMALL HEADER ========== */
+.header-section {
+  background: black;
+  color: red;
+  padding: 8px 12px;
+}
+
+.header-section ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  text-align: center;
+  font-size: 12px;
+}
+
+/* ========== LOGO SECTION ========== */
+.logo-section {
+  padding: 12px 30px;
+  border-bottom: 1px solid #eee;
+}
+
+.logo-section ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.logo-icon svg {
+  font-size: 28px;
+}
+
+.logo-text h2 {
+  font-size: 20px;
+  text-align:center;
+  letter-spacing: 1px;
+}
+
+.icons-group svg {
+  font-size: 22px;
+  margin-left: 12px;
+  cursor: pointer;
+}
+.icon-text{
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 600px) {
+  .header-section ul {
+    font-size: 14px;
+    justify-content: space-between;
+    padding: 0 40px;
+  }
+
+  .logo-section ul {
+    padding: 0 40px;
+  }
+
+  .logo-text h2 {
+    font-size: 26px;
+  }
+
+  .icons-group svg {
+    font-size: 18px;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .header-section ul {
+    font-size: 15px;
+    padding: 0 80px;
+  }
+
+  .logo-section ul {
+    padding: 0 80px;
+  }
+
+  .logo-text h2 {
+    font-size: 30px;
+  }
+
+  .icons-group svg {
+    font-size: 20px;
+  }
+}

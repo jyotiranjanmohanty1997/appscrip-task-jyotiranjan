@@ -1,0 +1,153 @@
+footer {
+  background: #000;
+  color: #fff;
+  padding: 40px 80px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.newsletter h4,
+.contact h4,
+.footer-bottom h4 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.newsletter-box {
+  display: flex;
+  margin-top: 10px;
+}
+
+.newsletter-box input {
+  padding: 12px;
+  width: 250px;
+  border: none;
+  outline: none;
+}
+
+.newsletter-box button {
+  padding: 12px 20px;
+  background: #333;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.contact small {
+  display: block;
+  margin-top: 8px;
+  opacity: 0.7;
+}
+
+/* Divider */
+footer hr {
+  border: 0;
+  border-top: 1px solid #444;
+  margin: 25px 0;
+}
+
+/* Bottom footer */
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-bottom div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.footer-bottom a {
+  text-decoration: none;
+  color: #ddd;
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.footer-bottom a:hover {
+  color: #fff;
+}
+
+
+.footer-bottom .footer-icon,
+.footer-bottom .payments {
+  display: flex !important;       
+  flex-direction: row !important;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: nowrap;
+}
+
+/* Ensure children inside wrappers behave correctly */
+.footer-bottom .footer-icon > *,
+.footer-bottom .payments > * {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+/* SVG / image sizing for payments */
+.footer-bottom .payments svg,
+.footer-bottom .payments img {
+  height: 32px;
+  width: auto;
+  
+}
+
+/* Icon sizing for social icons */
+.footer-bottom .footer-icon span {
+  font-size: 24px;
+}
+/* Mobile: allow wrapping only on very small screens (optional) */
+@media (max-width: 420px) {
+  footer .payments {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  footer .payments svg,
+  footer .payments img {
+    height: 28px !important;
+  }
+}
+
+/* Copyright */
+.copyright {
+  text-align: center;
+  margin-top: 30px;
+  opacity: 0.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  footer {
+    padding: 30px 20px;
+  }
+
+  .footer-top,
+  .footer-bottom {
+    flex-direction: column;
+  }
+
+  .footer-bottom div {
+    margin-bottom: 25px;
+  }
+
+  .newsletter-box {
+    flex-direction: column;
+  }
+
+  .newsletter-box input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

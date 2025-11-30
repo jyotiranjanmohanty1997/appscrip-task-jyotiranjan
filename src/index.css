@@ -1,0 +1,59 @@
+/* .main-layout {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.toggle-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: black;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.sidebar {
+  width: 180px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  height: fit-content;
+}
+
+.sidebar button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 6px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+}
+
+.sidebar .active {
+  background: black;
+  color: white;
+}
+
+.product-section {
+  flex: 1;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100px;
+  height: 120px;
+  object-fit: contain;
+} */
