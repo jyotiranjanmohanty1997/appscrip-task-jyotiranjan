@@ -1,15 +1,46 @@
 .hero {
-    width: 660px;
-    margin:auto;
-    padding: 50px 5px;
+  max-width: 660px;
+  width: 90%;
+  margin: auto;
+  padding: 50px 10px;
+  text-align: center;
 }
-.hero h1{
-    font-size: 40px;
-    text-align: center;
-    font-family:'Times New Roman', Times, serif;
+
+.hero h1 {
+  font-size: 2.5rem; 
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
 }
-.hero p{
-    padding: 10px 0;
-    font-size: 16px;
-    text-align: center;
+
+.hero p {
+  padding: 10px 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+
+/* 📱 MOBILE RESPONSIVE */
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 30px 10px;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem; 
+  }
+
+  .hero p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero p {
+    font-size: 0.85rem;
+  }
 }
